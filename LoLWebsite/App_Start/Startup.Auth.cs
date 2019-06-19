@@ -54,8 +54,8 @@ namespace LoLWebsite
 
             app.UseTwitterAuthentication(new TwitterAuthenticationOptions
             {
-                ConsumerKey = "XXXX",
-                ConsumerSecret = "XXXX",
+                ConsumerKey = "dRaZd1OOeqigOfwCBm42ZP6Ga",
+                ConsumerSecret = "958ZcJye8PdpnTdkOVezjU9La91GqPrNOvOhEUFVcYkJiSHaKi ",
                 BackchannelCertificateValidator = new CertificateSubjectKeyIdentifierValidator(new[]
                 {
                     "A5EF0B11CEC04103A34A659048B21CE0572D7D47", // VeriSign Class 3 Secure Server CA - G2
